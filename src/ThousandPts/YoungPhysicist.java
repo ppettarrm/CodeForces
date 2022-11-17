@@ -1,4 +1,4 @@
-package ThousandPt;
+package ThousandPts;
 
 import java.util.Scanner;
 
