@@ -1,3 +1,5 @@
+package ThousandPts;
+
 import java.util.Scanner;
 
 public class Dragons {
