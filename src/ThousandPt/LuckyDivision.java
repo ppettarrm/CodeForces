@@ -8,10 +8,8 @@ public class LuckyDivision {
         int n = input.nextInt();
         int m = n;
 
-        boolean isLucky = false;
-        if(n % 4 == 0 || n % 7 == 0)
-            isLucky = true;
-        if(!isLucky) {
+        boolean isLucky = true;
+        if(isLucky) {
             while (n > 0) {
                 if (n % 10 != 4 && n % 10 != 7) {
                     isLucky = false;
@@ -34,6 +32,7 @@ public class LuckyDivision {
                 }
                 if(dividedByLucky && m % i == 0)
                     isLucky = true;
+                dividedByLucky = true;
             }
 
         }
